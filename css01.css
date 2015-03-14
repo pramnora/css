@@ -1,0 +1,6 @@
+/* Sets both the web page background/foreground colors...to become black background with white text. */
+
+body{
+ background:black;
+ color:white;
+}
