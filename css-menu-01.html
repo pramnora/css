@@ -30,30 +30,6 @@
   /* ...general page set up/end. */
 
 
-   /* page title heading/start... */
-
-   h1{
-    background-color:blue; 
-    color:white;
-    text-align:left;
-    padding:122px 0px 122px 110px;
-   }
-
-  .clsHomepage{
-   color:red;
-  }
-
-  .clsForwardsSlash{
-   color:white;
-  }
-
-  .clsPage{
-   color:grey;
-  }
-
-   /* ...page title heading/end. */
-
-
    /* nav bar/start... */
 
    #idNavBar ul{
@@ -82,7 +58,38 @@
     color:red;
    }
 
+   #idNavBar ul .clsSelected {
+    font-size:large;
+    font-weight:bold;
+    font-style:italic;
+    color:white;
+   }
+
    /* ...nav bar/end. */
+
+
+   /* page title heading/start... */
+
+   h1{
+    background-color:blue; 
+    color:white;
+    text-align:left;
+    padding:122px 0px 122px 110px;
+   }
+
+  .clsHomepage{
+   color:red;
+  }
+
+  .clsForwardsSlash{
+   color:white;
+  }
+
+  .clsPage{
+   color:grey;
+  }
+
+   /* ...page title heading/end. */
 
 
    /* links/start... */
@@ -142,7 +149,7 @@
 
    <ul>
 
-    <li><a href="#">Option 1</a></li>
+    <li><a href="#" class="clsSelected">Home</a></li>
     <li><a href="#">Option 2</a></li>
     <li><a href="#">Option 3</a></li>
 
