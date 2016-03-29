@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+ <!--page created: 20:40 28/03/2016
+     last updated: 02:02 29/03/2016-->
+
+<html lang="en">
+
+ <head> 
+
+  <meta charset="UTF-8">
+
+  <title>Your Name homepage</title>
+
+  <style type="text/css">
+
+
+  /* general page set up/start... */
+
+  *{
+    margin:0px;
+    border:0px;
+    padding:0px;
+   }
+
+   body{
+    font-family:arial,verdana,sans-serif;
+    /* border: 5px solid white; */
+   }
+
+  /* ...general page set up/end. */
+
+
+
+   /* nav bar/start... */
+
+   #idNavBar ul{
+    background-color:orange;
+    color:white;
+    font-size:large;
+    float:right;
+   }
+
+   #idNavBar ul li{
+    display:block;
+    background-color:black;
+    color:red;
+    position:relative;
+    width:150px;
+    border:1px solid white;
+    text-align:center;
+   }
+
+   #idNavBar ul li:hover{
+    background-color:white;
+    font-weight:bold;
+   }
+
+   #idNavBar ul li a:hover{
+    color:red;
+   }
+
+   .clsMenuOptionSelected{
+    color:red; 
+    font-weight:bold;
+    font-style:italic;
+    text-align:left;
+   }
+
+   /* ...nav bar/end. */
+
+
+
+   /* page title heading/start... */
+
+   h1{
+    background-color:green; 
+    color:white;
+    text-align:left;
+    padding:122px 0px 122px 110px;
+   }
+
+  .clsSelectedPage{
+   font-style:italic;
+   color:yellow;
+  }
+
+  .clsForwardsSlash{
+   color:white;
+  }
+
+  .clsPage{
+   color:grey;
+  }
+
+   /* ...page title heading/end. */
+
+
+
+
+   /* links/start... */
+   a{
+    text-decoration:none;
+    color:grey;
+   }  
+   /* ...links/end. */
+
+
+  /* main section/start... */
+
+   main{
+    padding:20px;
+   }
+
+   main{
+    /* border:1px solid black; */
+   }
+
+   h2{
+    padding:10px;
+   }
+
+   p{
+    text-indent:1cm;
+    padding:10px;
+   }
+
+  /* ...main section/end. */
+
+
+  /* footer/start... */
+
+   footer{
+    padding:50px;
+    background-color:yellow; 
+    color:white;
+    text-align:center;
+   }
+
+   .clsCopyrightMessage{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    padding:20px;
+    border-radius:20%;
+   }
+
+  /* ...footer/end. */
+
+
+  </style>
+
+ </head>
+
+ <body>
+
+  <nav id="idNavBar">
+
+   <ul>
+
+    <li><a href="#" class="clsMenuOptionSelected">Home</a></li>
+    <li><a href="#">Option 2</a></li>
+    <li><a href="#">Option 3</a></li>
+    <li><a href="#">Option 4</a></li>
+    <li><a href="#">Option 5</a></li>
+    <li><a href="#">Option 6</a></li>
+    <li><a href="#">Option 7</a></li>
+    <li><a href="#">Option 8</a></li>
+    <li><a href="#">Option 9</a></li>
+    <li><a href="#">Option 10</a></li>
+
+   </ul>
+
+  </nav>
+
+  <header>
+
+   <!--h1 heading/start...-->
+   <h1>Your Name &lt;[ 
+    <span class="clsSelectedPage"> 
+     Home
+    </span> 
+    &nbsp;
+    <span class="clsPage">
+    p a g e 
+    </span>
+    ]&gt;</h1>
+   <!--...h1 heading/end.-->
+
+  </header>
+
+  <main>
+   <div>
+    <h2>Sub-title heading</h2>
+    <pre>
+     &lt;script&gt;
+      document.write("Hello, world!");
+     &lt;/script&gt;
+    </pre>
+    <p>Hi, and, very warmly welcome to my web page.</p>
+    <pre>
+     PRINT "Hello, world!"
+    </pre>
+    <p>I like to mess around at creating web sites; and, this is one of these.</p>
+    <pre>
+     ECHO "Hello, world!"
+    </pre>
+    <pre>
+     MsgBox("Hello, world!")
+    </pre>
+    <pre>
+     &lt;p&gt;Hello, world!&lt;/p&gt;
+    </pre>
+   </div>
+  </main>
+
+  <footer>
+   <span class="clsCopyrightMessage">
+    &copy;2016, Your Name./All rights reserved.
+   </span>
+  </footer> 
+
+ </body>
+
+</html>
