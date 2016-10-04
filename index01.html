@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--You will need to add 3 pictures to this web site page:
+    picName.jpg
+    picName1.png
+    picName2.png 
+ -->
+ <head>
+  <meta charset="utf-8" />
+  <title>Header/Footer</title>
+  <style type="text/css">
+  a{
+   font-size:larger;
+  }
+  a:link{
+   text-decoration:none;
+   color:blue;
+  }
+  a:hover{
+   font-weight:bold;
+   color:white;
+  }
+  a:active{
+   font-weight:bold;
+   color:red;
+  }
+  a:visited{
+   background-color:purple;
+  }
+  html{
+   margin:0px;
+   padding:0px;
+  }
+  body{
+   font-family:arial,verdana,sans-serif;
+   background-color:black;
+   color:black;
+   font-size:larger;
+  }
+  nav{
+   position:absolute;
+   background-color:white;
+   color:black;
+   font-size:normal;
+   font-weight:normal;
+  }
+  nav ul{
+   position:absolute;
+   display:inline-block;
+   float:left;
+  }
+  nav h2{
+   font-style:italic;
+   padding:0px;
+   background-color:black;
+   color:red;
+  }
+  .clsMMSelected{
+   font-weight:bold;
+   font-style:italic;
+   font-size:bold;
+   color:white;
+   text-transform:uppercase;
+  }  
+  header{
+   background-image:url(picName.jpg);
+   background-color:gray;
+   color:white;
+  }
+  header,div,#div1b,#div3b{
+   padding:2%;
+  }
+  header,#div2,#div4{
+   padding:10%;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+  }
+  #div1{
+   background-color:aqua;
+  }
+  #div1b{
+   background-color:blue;
+   color:aqua;
+  }
+  #div2{
+   background-image:url(picName1.png); 
+  }
+  #div3{
+   background-color:lime;
+  }
+  #div3b{
+   background-color:green;
+   color:lime;
+  }
+  #div4{
+   background-image:url(picName2.png); 
+  }
+  footer{
+   text-align:center;
+   background-color:white;
+   padding:2.5%;
+  }
+  #div5{
+   background-color:black;
+   padding:5%;
+  }
+  #idCopyrightMessage{
+   border-radius:25%;
+   font-size:small;
+   font-weight:bold;
+   background-color:white;
+   color:red;
+   padding:1%;
+  }
+  </style>
+ </head>
+ <body>
+  <nav>
+   <h2>Main Menu:-</h2>
+   <ul>
+    <li><a href="#">About</a></li>
+    <li><a href="#">C.V.</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><span class="clsMMSelected">&gt;&gt; Home &lt;&lt;</span></li>
+    <li><a href="#">Photos</a></li>
+    <li><a href="#">Videos</a></li>
+   </ul>
+  </nav>
+  <table width="100%" border="0">
+   <tr>
+    <td>
+  <header>
+   <h1>YourName Web Site</h1>
+  </header>
+  <main>
+   <div id="div1">
+    <div id="div1b">
+    <h2>Introduction</h2>
+    <p><b>Q</b>: Who am I?</p>
+    <p><b>A</b>: My name is, YourName. I'm currently aged YourAge years old. I live in YourTown/YourCountry.</p>
+    </div>
+   </div>
+   <div id="div2">
+   </div>
+   <div id="div3">
+    <div id="div3b">
+    <h2>My hobbies and interests are...</h2>
+    <ul>
+     <li>Your Hobbies 1</li>
+     <li>Your Hobbies 2</li>
+     <li>Your Hobbies 3</li>
+     <li>Your Hobbies 4</li>
+     <li>Your Hobbies 5</li>
+    </ul>
+    </div>
+   </div>
+   <div id="div4">
+    &nbsp;
+   </div>
+  </main>
+  <footer>
+   <div id="div5">
+   <p>
+    <span id="idCopyrightMessage">
+     &copy;2016-, YourName./All rights reserved.
+    </span>
+   </p>
+   </div>
+  </footer>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>
