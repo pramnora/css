@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <!--
+     PROGRAM: CSS Menu
+    LANGUAGE: HTML/CSS
+
+      AUTHOR: Mr. Paul Ramnora
+       EMAIL: pramnora@yahoo.com
+    WEB SITE: paulramnora.com
+    LOCATION: London, UK
+    COMPUTER: PC/Windows 10/Notepad
+
+     CREATED: 291017 22:28 PM GMT
+     UPDATED: 291017 22:28 PM GMT 
+     
+     ----------------------------
+     
+     FURTHER NOTES
+     This CSS menu example is based on code taken from:     
+     https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu
+
+     (The rest of the web page design is entirely my own ideas.)
+ -->
+ 
+ <head>
+
+  <meta charset="utf-8">
+
+  <title>CSS: Test menu</title>
+
+  <style>
+
+   /* Navigation menu/start */
+
+   ul { 
+       background-color:gray;
+       list-style-type:none;
+       margin:0;
+       padding:0;
+       overflow:hidden;
+      }
+
+   li {
+       float:left;
+      }
+
+   li a {
+       border:1px solid black;
+       display:block;
+       padding:16px;
+       color:white;
+       text-decoration:none; 
+      }
+
+   li a:hover{
+       background-color:blue;
+      }   
+
+   /* Navigation menu/end */
+
+   /****************************************************/
+
+   /* Header/start */
+
+   header{
+    background-color:black;
+   }
+
+   h1{
+    margin-top:60px;
+    text-align:center;
+   }
+
+   #idH1Text{
+    background-color:red;
+    color:white;
+    padding:20px;
+   }
+
+   /* Header/end */
+
+   /****************************************************/
+
+   /* Main/start */
+
+   main{
+    padding:20px;
+   }
+
+   main p{
+    text-indent:20px;
+   }
+
+   h2#idH2a{
+    text-align:left;
+    background-color:green;
+   }
+
+   #idH2aText{   
+    background-color:orange;
+    color:green;
+    padding:15px;
+   }
+
+   h2#idH2b{
+    text-align:center;
+    background-color:blue;
+   }
+
+   #idH2bText{   
+    background-color:aqua;
+    color:blue;
+    padding:15px;
+   }
+
+   h2#idH2c{
+    text-align:right;
+    background-color:yellow;
+   }
+
+   #idH2cText{   
+    background-color:green;
+    color:yellow;
+    padding:15px;
+   }
+
+   /* Main/end */
+
+   /****************************************************/
+
+   /* Footer/start */
+
+   footer p{
+    background-color:silver;
+    text-align:center;
+   }
+
+   #idCopyrightMessage{
+    background-color:black;
+    font-weight:bold;
+    color:white; 
+    padding:10px;       
+   }  
+
+   /* Footer/end */
+
+  </style>
+
+ </head>
+
+ <body>
+
+  <nav>
+   <ul>
+    <li><a href="">Page 1</a></li>
+    <li><a href="">Page 2</a></li>
+    <li><a href="">Page 3</a></li>
+    <li><a href="">Page 4</a></li>
+   </ul>
+  </nav>
+
+  <header>
+   <h1>
+    <span id="idH1Text">
+     YourName Homepage
+    </span>
+   </h1>
+  </header>
+
+  <main>
+
+   <h2 id="idH2a">
+    <span id="idH2aText">
+     Sub-head
+    </span>
+   </h2>
+
+   <p>
+    This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence.
+   </p>
+
+   <h2 id="idH2b">
+    <span id="idH2bText">
+     Sub-head
+    </span>
+   </h2>
+
+   <p>
+    This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence.
+   </p>
+
+   <h2 id="idH2c">
+    <span id="idH2cText">
+     Sub-head
+    </span>
+   </h2>
+
+   <p>
+    This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence.
+   </p>
+
+  </main>
+
+  <footer>
+   <p>
+    <span id="idCopyrightMessage">
+     &copy;2017, YourName./All rights reserved.
+    </span>
+   </p>
+  </footer>
+
+ </body>
+
+</html>
