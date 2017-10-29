@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+
+<html lang="en"><!--html code/start-->
+
+
+
+
+
+
+
+
+
+ <!--Author Notes...
+
+     I'm fairly happy with the CSS/JQuery script; 
+     however, there are certain specific points that I'm still NOT happy with...
+
+      1> The link text inside of both 'left/right' columns should have been made much wider.
+         At the moment, if you were to miss clicking on the link 'text' itself; then, no link activates;
+         meaning, you have to click on link 'text'...or else, the link just won't work.
+
+      2> When adding a new H2 'sub-heading/div section'; then, you will need to change this web page internal source code...;
+         as has already been commented in the stylesheet section down below.
+
+      3> Here I've choosen to include an 'internal' header based stylesheet;
+         -(as I wanted all of the code to be stored inside of 'one' single same file)-;
+         however, in real life production...I would have linked to an 'external' stylesheet, instead:
+         <link rel="stylesheet" type="text/css" href="css01.css">  
+         ...then, every other page in the same site, could also link to that 'external' stylesheet;
+         thus, giving a 'uniform' look to each web page. 
+ -->
+
+
+
+
+
+
+
+
+ <head><!--head section/start-->
+
+
+  <!--meta tags-->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="yourName Web Site, Homepage/(index.html), description of what your site does...">
+  <meta name="keywords" content="yourName,keyword2,keyword3,-etc.">
+  <meta name="editor" content="OS Name(eg. Windows 10)/Editor name(eg. Notepad)">
+  <meta name="author" content="Mr./Mrs./Miss. YourName">
+  <meta name="email" content="yourName@yourEmailProvider.com">
+  <meta name="location" content="City, Country(2 letter code: eg. UK/US/-etc.)">
+  <meta name="page-created" content="29/10/2017 01:08 AM GMT">
+  <meta name="last-updated" content="29/10/2017 06:33 AM GMT">
+
+
+  <!--web page title bar heading-->
+
+  <title>YourName.com</title>
+
+
+  <!--CSS stylesheet/start-->
+
+  <style>
+/*---------------------------------------------------------------------------------------*/
+
+/* CSS re-set */
+
+*{
+ margin:0px;
+ padding:0px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Links */
+
+a{
+ text-decoration:none;
+} 
+
+a:visited{
+ color:purple;
+} 
+
+a:active{
+ color:red;
+}
+
+a:hover{
+ /* text-decoration:underline; */
+ color:red;
+ font-weight:bold;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Body */
+
+body{
+ font-family:arial,verdana,sans-serif;
+}
+
+h2{
+ padding:10px 0px 10px 0px;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Lists */
+
+ul{
+ list-style-type:none;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Header */
+
+header{
+ background-color:black;
+ color:red;
+ text-align:center;
+ padding:40px;
+}
+
+/*---------------------------------------------------------------------------------------
+
+ AUTHOR'S NOTE: This web page is divided up into being 3 seperate vertically stacked columns: 
+                Div1/15% wide - (left column/stores links to the different site sections)
+                Div2/70% wide - (middle column/main section/text)
+                Div3/15% wide - (right column/stores links/adverts/-etc.) 
+
+---------------------------------------------------------------------------------------*/
+
+/* Div 1 */
+
+#idDiv1Outer{
+ width:15%;
+ float:left;
+ background-color:grey;
+}
+
+#idDiv1Outer p{
+ font-style:italic;
+ margin:10px;
+ background-color:silver;
+}
+
+#idDiv1Inner ul li:hover{
+ background-color:silver;
+ text-decoration:none;
+}
+
+#idDiv1Inner{
+ border:1px solid black;
+ text-indent:20px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Div 2 */
+
+#idDiv2Outer{
+ width:70%;
+ float:left;
+ background-color:pink; 
+}
+
+#idDiv2Inner{
+ padding:20px;
+ background-color:white;
+ border:1px solid black;
+}
+
+#idDiv2Inner p.clsPara{
+ text-indent:20px;
+}
+
+p.clsReturnToTop{
+ background-color:white;
+ margin-left:0px;
+ margin-top:10px;
+ margin-bottom:10px;
+ display:inline-block;
+}
+
+p.clsReturnToTop:hover{
+ background-color:pink;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Div 3 */
+
+#idDiv3Outer{
+ width:15%;
+ float:left;
+ background-color:silver;
+}
+
+#idDiv3Inner{
+ padding:10px;
+ border:1px solid black;
+}
+
+#idDiv3Inner p{
+ background-color:orange;
+ font-style:italic;
+ padding:5px;
+}
+
+#idDiv3Inner ul{
+ margin:10px;
+}
+
+#idDiv3Outer ul li:hover{
+ background-color:white;
+ text-decoration:none;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Footer */
+
+footer{
+ clear:both;
+ background-color:white;
+ color:black;
+ padding:0px;
+ text-align:center;
+}
+
+.clsTimeDateStamp{
+ font-style:italic;
+ color:red;
+}
+
+#idCopyrightOuter{
+ background-color:silver; 
+}
+
+#idCopyrightInner{
+ padding:10px;
+ background-color:black;
+ color:white;
+ font-weight:bold;
+}
+
+#idSitePolicies{
+ margin-top:20px;
+ color:red;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+  /*
+     NOTE: My aim is to show just the H2 headings alone
+           when this web page first loads; 
+           so, each corresponding div is set to: 'display:none'.
+
+           Everytime a 'new' H2 sub-heading is added onto the HTML code below; 
+           then, you will also need to add a reference here 
+           of which particular '#idSubHeadDivNo' to hide...
+  */
+
+  #idSubHeadDiv1,#idSubHeadDiv2,#idSubHeadDiv3,#idSubHeadDiv4{
+   display:none;
+  }
+
+  </style><!--CSS stylesheet/end-->
+  
+
+ </head><!--head section/end-->
+
+
+
+
+
+
+
+
+
+ 
+ <body><!--body section/start-->
+
+
+  <!--AUTHOR'S NOTE: The body section is divided up into 4 parts: header/main/footer/script--> 
+
+
+  <!--fragment identifier/internal link to 'top' of page-->
+
+  <a name="top"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <header><!--header section/start-->
+
+   <h1>YourName.com</h1>
+
+  </header><!--header section/end-->
+
+
+
+
+
+
+
+
+  <main><!--main section/start-->
+
+  <!--AUTHOR'S NOTE: The main section is divided up into 3 vertical columns: left/middle/right sections--> 
+
+
+
+
+
+
+   
+
+
+   <!---------------------------------------vertical column 1/left section/start------------------------------------------------------------------>
+
+   <div id="idDiv1Outer">
+
+    <div id="idDiv1Inner">
+
+     <p>
+      Table of contents:-
+     </p>
+
+     <ul><!--ul/links to each section of site-->
+     
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <li><a href="#">Link 4</a></li>
+      <li><a href="#">Link 5</a></li>
+      <li><a href="#">Link 6</a></li>
+      <li><a href="#">Link 7</a></li>
+      <li><a href="#">Link 8</a></li>
+      <li><a href="#">Link 9</a></li>
+      <li><a href="#">Link 10</a></li>
+
+     </ul><!--ul/links to each section of site-->
+
+     <br>
+
+     <hr>
+
+     <br>
+
+   </div><!--idDiv1Inner-->
+
+  </div><!--idDiv1Outer-->
+
+
+   <!---------------------------------------vertical column 1/left section/end------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!---------------------------------------vertical column 2/middle section/start------------------------------------------------------------------>
+
+   <div id="idDiv2Outer">
+
+    <div id="idDiv2Inner">
+
+
+
+
+
+
+
+     <!--AUTHOR'S NOTE: Each H2 sub-heading/contains a corresponding DIV section...
+                        Eg. idSubHead1/idSubHeadDiv1
+                            idSubHead2/idSubHeadDiv2
+                            idSubHead3/idSubHeadDiv3
+                            idSubHead4/idSubHeadDiv4
+                        Basically, whenever the subHeader is clicked on; then, it's corresponding div toggles to both open/close.
+                        (The toggle 'open/close' effect is done using JQuery script.)
+       --> 
+
+
+     <!---------------------------------------idSubHead1/start------------------------------------------------------------------>
+    
+
+     <h2 id="idSubHead1" onclick="javascript:doToggle('idSubHeadDiv1')">Sub-heading</h2>
+
+     <div id="idSubHeadDiv1">
+
+     <blockquote>
+
+      <p class="clsPara">
+       This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence.
+      </p>
+
+     </blockquote>
+
+     <p class="clsReturnToTop">
+      <a href="#top">
+       -Click here to return to top...
+      </a>
+     </p>
+
+     <hr>
+
+     </div><!--idSubHeadDiv1-->
+
+     <!---------------------------------------idSubHead1/end------------------------------------------------------------------>
+
+
+
+     <!---------------------------------------idSubHead2/start------------------------------------------------------------------>
+
+     <h2 id="idSubHead2" onclick="javascript:doToggle('idSubHeadDiv2')">Sub-heading</h2>
+     
+     <div id="idSubHeadDiv2">
+
+     <blockquote>
+
+      <p class="clsPara">
+       This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence.
+      </p>
+
+     </blockquote>
+
+     <p class="clsReturnToTop">
+      <a href="#top">
+       -Click here to return to top...
+      </a>
+     </p>
+
+     <hr>
+
+     </div><!--idSubHeadDiv2-->
+
+     <!---------------------------------------idSubHead2/end------------------------------------------------------------------>
+
+
+
+     <!---------------------------------------idSubHead3/start------------------------------------------------------------------>
+
+     <h2 id="idSubHead3" onclick="javascript:doToggle('idSubHeadDiv3')">Sub-heading</h2>
+
+     <div id="idSubHeadDiv3">
+
+     <blockquote>
+
+      <p class="clsPara">
+       This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence.
+      </p>
+
+     </blockquote>
+
+     <p class="clsReturnToTop">
+      <a href="#top">
+       -Click here to return to top...
+      </a>
+     </p>
+
+     <hr>
+
+     </div><!--idSubHeadDiv3-->
+
+     <!---------------------------------------idSubHead3/end------------------------------------------------------------------>
+
+
+
+     <!---------------------------------------idSubHead4/start------------------------------------------------------------------>
+
+     <h2 id="idSubHead4" onclick="javascript:doToggle('idSubHeadDiv4')">Sub-heading</h2>
+
+     <div id="idSubHeadDiv4">
+
+     <blockquote>
+
+      <p class="clsPara">
+       This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence. This is a sentence.
+      </p>
+
+     </blockquote>
+
+     <p class="clsReturnToTop">
+      <a href="#top">
+       -Click here to return to top...
+      </a>
+     </p>
+
+     <hr>
+
+     </div><!--idSubHeadDiv4-->
+
+     <!---------------------------------------idSubHead4/end------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div><!--idDiv2Inner-->
+
+   </div><!--idDiv2Outer-->
+
+   <!---------------------------------------vertical column 2/middle section/end------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!---------------------------------------vertical column 3/right section/start------------------------------------------------------------------>
+
+
+   <div id="idDiv3Outer">
+
+    <div id="idDiv3Inner">
+
+     <p>Internal Links:-</p>
+
+     <ul>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+     </ul>
+
+     <hr>
+
+     <br>
+
+     <p>External Links:-</p>
+
+     <ul>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <li><a href="#">Link 4</a></li>
+      <li><a href="#">Link 5</a></li>
+      <li><a href="#">Link 6</a></li>
+     </ul>
+
+     <hr>
+
+    </div><!--div3Inner-->
+
+   </div><!--div3Outer-->
+
+   <!---------------------------------------vertical column 3/right section/end------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+  </main><!--main section/end-->
+
+
+
+
+
+
+
+
+
+
+  <footer><!--footer section/start-->
+
+  <p id="idCopyrightOuter">
+   <span id="idCopyrightInner">
+    &copy;2017, Mr./Mrs./Miss. YourName./All rights reserved.
+   </span>
+  </p><!--idCopyrightOuter-->
+
+
+   <p id="idSitePolicies">
+    <a href="#">Contact</a>
+    |
+    <a href="#">Mission</a>
+    |
+    <a href="#">Privacy</a>    
+    |
+    <a href="#">Sitemap</a>
+   </p>
+
+   <p>
+    Document last modifed: 
+    <br>
+    <span class="clsTimeDateStamp">
+     29TH OCT 2017 06:33 AM GMT
+    </span>
+   </p>
+
+
+  </footer><!--footer section/end-->
+
+  
+
+
+
+
+
+
+
+  <!--link to external JQuery script-->
+
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <!--Javascript/JQuery code-->
+
+  <script>
+   function doToggle(idName){
+    $("#"+idName).slideToggle();
+   }
+  </script> 
+
+
+
+
+
+
+
+
+
+ </body><!--body section/end-->
+
+
+
+
+
+
+
+
+<!--html code/end-->
+</html>
