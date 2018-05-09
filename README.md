@@ -9,7 +9,7 @@ Cascading Style Sheet Code
 
 -----
 
-## Links...
+## External Links...
 
 ### W3Schools
 
