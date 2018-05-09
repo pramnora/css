@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<!--created: 13:35 07/05/2018
+    updated: 13:35 07/05/2018-->
+
+<!--this code was borrowed from...
+https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button
+...and, also, includes my own personal adaptations to it.
+-->
+
+<html>
+<head>
+<style>
+
+body{
+ font-family:arial,verdana,sans-serif;
+ font-size:small;
+}
+
+ul{list-style-type:none;}
+
+.dropbtn{ /* style the button */
+    background-color: black; /* set button's background color                    */
+    color: white;            /* set button's text (foreground) color             */
+    padding: 16px;           /* set button's padding (inside)                    */
+    border: none;            /* set button's border                              */
+    cursor: pointer;         /* change mouse cursor to hand with pointing finger */
+}
+
+.dropdown { /* set dropdown outer div to be: relative/inline-block */ 
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{ /* hide dropdown content/position absolute */
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a { /* set links inside of dropdown content... */
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* on hover over dropdown content...
+   change each menu item background color to become, silver...;
+   so user knows which option they've currently got selected */
+.dropdown-content a:hover {background-color: black;color:white;}
+
+
+/* on hover over dropdown outer div...and, drop down content...
+   ...display each menu item option as: block */
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{ /* on hover over dropdown outer div/change button colour */
+    background-color: gray;
+    color:white;
+}
+
+</style>
+</head>
+<body>
+
+<!--
+The HTML body code mainly consists of two 'nested' divs.../with a button in between.
+ 1. an outer div
+ 2. a clickable button
+ 3. an inner div 
+ ...also, note that each of these 3 items contains its own unique class name.
+-->
+
+<div class="dropdown">
+
+  <button class="dropbtn">Menu</button>
+
+  <div class="dropdown-content">
+    <a href="#">English</a>
+    <ul>
+     <li><a href="#">one</a></li>
+     <li><a href="#">two</a></li>
+     <li><a href="#">three</a></li>
+    </ul>
+    <a href="#">Italian</a>
+    <ul>
+     <li><a href="#">una</a></li>
+     <li><a href="#">due</a></li>
+     <li><a href="#">tre</a></li>
+    </ul>
+    <a href="#">French</a>
+    <ul>
+     <li><a href="#">un</a></li>
+     <li><a href="#">deux</a></li>
+     <li><a href="#">trois</a></li>
+    </ul>
+    <a href="#">German</a>
+    <ul>
+     <li><a href="#">eien</a></li>
+     <li><a href="#">zwei</a></li>
+     <li><a href="#">drei</a></li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
