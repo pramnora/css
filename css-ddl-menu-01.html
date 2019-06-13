@@ -1,0 +1,117 @@
+<html lang="en">
+
+ <!--
+  Created: 15:21 12/06/2019
+  Updated: 15:21 12/06/2019
+
+  This HTML/CSS menu code example was taken from...
+
+  YouTube videos...channel name: tutor4u
+
+  CSS Drop Down Menu Tutorial - 1 of 2
+  https://www.youtube.com/watch?v=x4pHhRfqN2M
+
+  CSS Drop Down Menu Tutorial - 2 of 2
+  https://www.youtube.com/watch?v=sBwqvd0ZuCI
+ -->
+
+ <head>
+
+  <meta charset="utf-8">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <title>Testing</title>
+
+  <style>
+
+   nav ul{list-style:none; margin:0; padding:0;}
+   nav li{float:left; width:100px; background-color:#444; text-align:center; border-right:1px solid white; position:relative; height:30px; line-height:30px;}   
+   nav li ul li{float:none; width:150px; text-align:left; padding-left:5px; border-top:1px solid white;}
+  
+   nav a{text-decoration:none; color:white;}
+
+   nav li ul{position:absolute; top:30px; left:0; visibility:hidden;}
+   nav li:hover ul{visibility:visible;}
+
+   nav li:hover{background-color:maroon;}
+
+   #idPageContent{clear:both;}
+
+  </style>
+
+  <script language="javascript" type="text/javascript" src="js/js01.js">
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="css/css01.css">
+
+ </head>
+
+ <body>
+
+  <nav>                  
+   <ul>
+    <li>
+     <a href="#">Home</a>
+     <ul>
+      <li><a href="#">About</a></li>  
+      <li><a href="#">Books</a></li>  
+      <li><a href="#">Collection</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Links</a></li>
+      <li><a href="#">Photos</a></li>
+      <li><a href="#">Timetable</a></li>
+      <li><a href="#">Videos</a></li>
+     </ul>
+    </li>
+    <li>
+     <a href="#">Gallery</a>
+      <ul>
+       <li><a href="#">Drawings</a></li>  
+       <li><a href="#">Ceramics</a></li>  
+       <li><a href="#">Essays</a></li>  
+       <li><a href="#">Film</a></li>  
+       <li><a href="#">Other</a></li>  
+       <li><a href="#">Origami</a></li>
+       <li><a href="#">Paintings</a></li>
+       <li><a href="#">Photography</a></li>  
+       <li><a href="#">Poetry</a></li>  
+       <li><a href="#">Prints</a></li>
+       <li><a href="#">Sculptures</a></li>
+     </ul>
+    </li>
+    <li>
+     <a href="#">Notices</a>
+     <ul>
+      <li><a href="#">Adverts</a></li>
+      <li><a href="#">Cookies</a></li>
+      <li><a href="#">Copyright</a></li>
+      <li><a href="#">Mission</a></li>  
+      <li><a href="#">Privacy</a></li>  
+      <li><a href="#">Usage</a></li>
+     </ul>
+    </li>
+   </ul>
+  </nav>
+
+  <div id="idPageContent">
+
+   <header>
+    <h1>Heading</h2>
+   </header>
+
+   <main>
+    <h2>Content</h2>
+   </main>
+ 
+   <footer>
+    <h3>Footer</h3>
+   </footer>
+
+  </div>
+
+ </body>
+
+</html>
