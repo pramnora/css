@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--code borrowed from...
+YouTube Channel name: techsith
+    Video Title Text: css position property tutorial ( fixed, absolute, relative, static )
+                 URL: https://www.youtube.com/watch?v=-vo0HzNHL3U
+                NOTE: The above code has been further adapted by me: pramnora@yahoo.com
+             Created: 18:11 25/08/2019
+             Updated: 18:11 25/08/2019
+-->
+
+<html lang="en">
+
+ <head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>CSS Positioning 01</title>
+
+  <style>
+
+   .common{
+    font-size:30px;
+    color:white;
+   } 
+   
+   .first{
+     background-color:green;   
+   }
+
+   /* 
+
+      CSS has 5 different positionings: static/absolute/relative/fixed/initial
+      ------------------------------------------------------------------------
+
+
+
+
+      The 'default positioning is: static; 
+      which, basically, means don't interfere with the 'normal' document flow.
+      ------------------------------------------------------------------------
+      Using the default method position 'static'...then, using: top/bottom/right/left...
+      has no effect.
+ 
+
+
+
+      When one adds position: 'relative' to an element; 
+      then, although nothing actually seems to be happening on the surface;
+      in fact, it adds 4 different positionings to an element: top/bottom/right/left;
+      each of which allows one to change that elements position on the page
+      by moving it around however one wishes. 
+      ------------------------------------------------------------------------
+      NOTE: Each elements top left corner position: (0,0)...
+      can be regarded as being it's 'point of origin'...which doesn't move.
+      So any movement is done in regards to this fixed point of origin.
+      Thus, top 10px; means move the element from it's topmost point of origin 
+      going downwards by 10px.
+      ------------------------------------------------------------------------
+      When you say element move: 
+            top 10 px; it actually means move the top of the element move downwards.
+            bottom 10 px; it actually means move the bottom of the element upwards.
+            left 10 px; it actually means move the left side of the element rightwards
+            right 10 px; it actually means move the right side of the element leftwards
+      ...therefore, one could acually say it moves the opposite way to whatever is it's name.
+      ------------------------------------------------------------------------
+      Whenever you move an element using position relative,
+      its surrounding elements do NOT move...; 
+      only the selected element itself moves.
+      Therefore, this is really useful when you wish to move an element
+      without affecting the other elements being placed around it. 
+
+   */
+
+   .second{
+     background-color:red; 
+     position:relative;
+     top:150px;
+     left:15px;
+   }
+
+   .third{
+     background-color:blue;   
+   }
+
+  </style>
+
+ </head>
+
+ <body>
+
+  <main>
+
+   <div class="first common">First</div>
+   <div class="second common">Second</div>
+   <div class="third common">Third</div>
+
+  </main>
+
+ </body>
+
+</html>
