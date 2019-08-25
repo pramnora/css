@@ -4,11 +4,14 @@ Cascading Style Sheet Code
 -----
 
 ## NOTE(1): All of the codes being shown inside of this 'CSS' folder directory up above...can both be 'viewed/interacted' with by using the following Netlify link.
- 
--> https://modest-nightingale-efc290.netlify.com  
+
+-> https://peaceful-wing-65e1cd.netlify.com  
 
 ## NOTE(2):
-*250819 20:45 PM GMT'* - I noticed that when I tried uploading a 'new' file: [css-positioning-01.html]...; and, then, also, went and updated the [index.html] file to include a link to that 'new' file uploaded...the link to the 'new' file did not register inside of [index.html]/and, therefore, you couldn't see the changes made using the 'old' Netlify link; which, in turn, must mean I will have to add a 'new' Netlify link in order to make [index.html] be updated properly.
+
+It would appear that each time I update the [index.html] file with 'new' links...; then, I also have to change to a 'new' Netlify URL address(deleting the old Netlify address link).   
+
+However, my guess is, I'm most probably doing something wrong...need to change some deployment setting on Netlify; unless there is a bug in the Netlify link call.
 
 -----
 
