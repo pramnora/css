@@ -11,7 +11,7 @@ Cascading Style Sheet Code
 
 ## Introduction
 
-HTML/HyperText MarkUp Language, is the **base** language used to create web pages with. It is mostly concerned with text presentation/but, also, includes such things as: tables/iFrames/forms/links/too, graphics/audio/video files/-etc.; it also contains META content (the non-visible part of the web page), too...such as which particular version of HTML the web pages uses/and, so on.     
+HTML/HyperText MarkUp Language, is the **base** language used to create web pages with. It is mostly concerned with text presentation/but, also, includes such things as: tables/iFrames/forms/links/too, graphics/audio/video files/-etc.; it also contains META content (the non-visible part of the web page), too...such as which particular version of HTML the web pages uses/and, so on; and, can link to Javascript/CSS files/-etc.     
 
 CSS/Cascading Style Sheet code, is a very powerful compliment to HTML code...so, much so that, now-a-days, seldom does one find hardly any HTML web page...that doesn't include some CSS code to accompany it.
 
