@@ -11,6 +11,8 @@ Cascading Style Sheet Code
 
 ## Introduction
 
+HTML, is the **base** language used to create web pages with. It is mostly concerned with text presentation/but, also, includes such things as: tables/iFrames/forms/too, graphics/audio/video files/-etc.; it also contains META content, too...such as which particular version of HTML the web pages uses/and, so on.     
+
 CSS/Cascading Style Sheet code, is a very powerful compliment to HTML/HyperText MarkUp Language code...so, much so that, now-a-days, seldom does one find hardly any HTML web page...that doesn't have some CSS code to accompany it.
 
 - HTML code, is used just to render, mostly, 'plain text'.  
