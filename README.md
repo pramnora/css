@@ -15,7 +15,7 @@ CSS/Cascading Style Sheet code, is a very powerful compliment to HTML/HyperText 
 
 - HTML code, is used just to render, mostly, 'plain text'.  
 
-- CSS code, is used to decorate that text...position text: left/right/center; colour text in...re-size text...give the text a spectic font face: arial/verdana/sanss-erif/-etc...create text effects: bold/underline/italic...highlight text/-etc.   
+- CSS code, is used to decorate that text...position text: left/right/center; colour text in...re-size text...give the text a spectic font face: arial/verdana/sans-serif/-etc...create text effects: bold/underline/italic...highlight text/-etc.   
 
 -----
 
