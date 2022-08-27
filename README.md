@@ -7,12 +7,6 @@ Cascading Style Sheet Code
 
 -> https://prg-css.netlify.com  
 
-## NOTE(2):
-
-It would appear that each time I update the [index.html] file with 'new' links...; then, I also have to change to a 'new' Netlify URL address(deleting the old Netlify address link).   
-
-However, my guess is, I'm most probably doing something wrong...need to change some deployment setting on Netlify; unless there is a bug in the Netlify link call.
-
 -----
 
 ## External Links...
