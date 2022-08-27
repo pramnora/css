@@ -3,7 +3,7 @@ Cascading Style Sheet Code
 
 -----
 
-## NOTE(1): All of the codes being shown inside of this 'CSS' folder directory up above...can both be 'viewed/interacted' with by using the following Netlify link.
+## All of the codes being shown inside of this 'CSS' folder directory up above...can both be 'viewed/interacted' with by using the following Netlify link.
 
 -> https://prg-css.netlify.com  
 
