@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+
+  <style>
+
+   a:link{color:blue;text-decoration:none;}
+   a:hover{color:red;text-decoration:underline;}
+   a:visited{color:purple;}
+   a:active{color:red;}
+
+   body{
+    background:yellow;
+    padding:1%;       
+    font-family:arial,verdana,sans-serif;
+   }
+
+   nav{
+    background:green;
+    width:15%;
+    float:left;
+   }
+
+   .main{
+    width:84%;
+    float:right;
+    background:white;
+   }
+
+   .selectedMenuText{
+    font-style:italic;
+    font-weight:bold;
+    font-size:larger;
+   }
+
+   .ULMenu{
+    list-style-type:none;
+    padding:0;
+   }
+
+   .ULMenu a:link, a:visited{
+    display:block;
+    width:100%;
+    background-color:red;
+    text-decoration:none;
+    text-align:center;
+    padding:10px;
+   }
+
+   .ULMenu a:hover, a:active{
+    background-color:white;
+    font-weight:bold;
+    font-style:italic;
+    font-size:larger;
+   }
+
+   header{background-color:grey;color:black;text-indent:1cm;padding:50px;text-align:center;}
+   .webSiteText{background-color:grey;color:black;text-indent:1cm;text-align:center;text-shadow: 2px 2px 5px red;font-style:italic;}
+
+   .h2SubHead{background-color:pink;padding:10px;font-style:italic;}
+   h2{background-color:maroon;color:orange;text-indent:1cm;padding:10px;}
+
+   .h3SubHead{background-color:orange;padding:10px;}
+   h3{background-color:green;color:yellow;text-indent:1cm;padding:10px;}
+
+   footer{background-color:black;color:white;text-indent:1cm;padding:20px;text-align:center;}
+
+   .clsPageUpdateMsg{
+    text-align:center;
+   }        
+
+   .clsDateTimeStamp{
+    font-style:italic;
+    color:red;
+   }
+
+   marquee{
+    background-color:white;
+    border-radius:10px;
+    font-style:italic;
+    padding:10px;
+   }
+
+   .divMarquee{
+    background-color:green;
+    padding:10px;
+    border-radius:10px;
+   }
+
+  </style>
+
+  <script></script>
+ </head>
+ <body>
+
+  <div class="outer">
+
+   <div class="div-left">
+    <nav>
+     <ul class="ULMenu">
+      <li><a href="#">Art</a></li>
+      <li><a href="#">Computing</a></li>
+      <li><a href="#" class="selectedMenuText">Home</a></li>
+      <li><a href="#">Photography</a></li>
+     </ul>
+    </nav>
+   </div>
+
+   <div class="main">
+
+    <header>
+     <h1>
+      Paul Ramnora <span class="webSiteText">Web Site</span>
+     </h1>
+    </header>
+
+    <blockquote>
+     <div class="divMarquee">
+      <marquee>
+       Sonnet No 18 -
+     
+       From fairest creatures we desire increase,
+       that thereby beauty's rose might never die;
+       but, as the riper should by time decease, 
+       his tender heir might bear his memory.
+
+       But, thou contracted to thine own bright eyes,
+       feedst thy light's flame with self-substantial fuel,
+       making a famine where abundance lies,
+       thyself thy foe, to thy sweet self too cruel.
+
+       Thou that art now the world's fresh ornament,
+       And, only herald to the gaudy spring,
+       Within thine own bud do buriest thy content;
+       and, tender churl makest waste niggarding.
+
+       Pity the world, or else, this glutton be,
+       to eat the world's due by the grave and thee. 
+
+       - William Shakespeare
+
+       <a href="https://www.allpoetry.com" target="_blank">AllPoetry</a>
+      </marquee>
+     </div>
+    </blockquote>
+
+    <div class="h2SubHead">
+     <h2>Lastest News...</h2>
+    </div>
+
+    <blockquote>
+
+     <p><span class="clsDateTimeStamp">19:18 21/08/2022</span></p>
+     <ul>
+      <li>
+       Playing around with creating drop down menu's...; by watching a number of <a href="https://www.youtube.com" target="_blank">YouTube</a> videos. 
+     </li>
+
+     <li>
+      <a href="https://www.linode.com" target="_blank">Linode</a>/<a href="https://www.linux.org" target="_blank">Linux</a> <a href="https://ubuntu.com/" target="_blank">Ubuntu</a>: Programming languages: Bash/<a href="https://www.php.net" target="_blank">PHP</a>/<a href="https://www.lua.org" target="_blank">Lua</a>. Database: <a href="https://www.redis.io" target="_blank">Redis</a>. Downloaded <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">Putty.</a>
+     </li>
+
+    </blockquote>
+    <blockquote>
+     <p><span class="clsDateTimeStamp">22:28 26/08/2022</span></p>
+     <ul>
+      <li>
+       Decided to go and download <a href="https://www.filezilla.com" target="_blank">Filezilla</a> FTP/File Transfer Protocol software; as it makes the job of: creating/updating/deleting both folders/files, one hell of a lot easier...whenever it comes to transferring files between Desktop PC/and, <a href="https://www.linode.com" target="_blank">Linode</a> remote instance web server; whether one wishes to move just one 'single' file, alone/or, else, 'multiple'...; all of these transfers can be done, very quickly, indeed; and, even, in a mere <i>instant</i>. 
+      <br><br>
+      -(The whole business of...
+       <ol>
+        <li>first, using SSH/Secure SHell to sign into the remote server</li>
+        <li>then, changing directory to go find where the specific file is located</li>
+        <li>then, opening that file in Nano editor</li>
+        <li>then, doing small incremental changes...</li>
+        <li>saving those changes using, Nano</li>
+        <li>then, moving over to web browser to go hit [refresh] button...just to check out seeing if that small change you made does, actually, work...?</li>
+       </ol>
+        ...endlessly and repeatedly, again and again...is nothing else but a huge 'time waster'...; which, after a while, one gets well and truly sick and tired of doing it.
+        <br><br> Alas, through using FTP software...; that altogether extremely tedious task does exist no more! 
+        <br><br>So, I'm learning real <i>fast</i> that <b>Web developers</b>/web page <i>writers</i>, also, need to select what are the right development <b>tools</b> to work with; otherwise, their life can be made sheer bitter hell.
+        <br>On the other hand, having a much <i>improved workflow</i> can, seriously, help; then, one finds one actually <i>wants</i> to get down to work...; instead, of absolutely hating it.)-
+
+    <br><br>
+
+    <div class="h3SubHead">
+     <h3>Different types of workflow...</h3>
+    </div>
+
+    <br>
+
+     <form>
+      <textarea rows="10" cols="80">
+Created: 00:56 27/08/2022
+Updated: 00:56 27/08/2022
+
+--------------------------------------------------------------------------------
+Private web pages.../non internet related
+--------------------------------------------------------------------------------
+
+Workflow 1: (basic)
+
+- Windows Notepad (editor, used to write code)
+- Chome web browser (to view output)
+- Chrome web development tools, including...
+  syntax highlighting
+  error messages
+  file not found
+  html/javascript testing (in console)
+  -etc.
+
+Workflow 2: (professional)
+
+- Visual Studio Code (editor, used to write code)
+- Chrome web browser (to view output)
+  syntax highlighting
+  code intellisense
+  pretty printing/(improved code layout)
+  auto code completion (paired tags/-etc.)
+  emmet (templates/code snippets)
+  live server/(auto update view in browser)
+  -etc.
+
+--------------------------------------------------------------------------------
+Public web pages.../internet related
+--------------------------------------------------------------------------------
+
+Workflow 1: Namecheap(site host/CP Panel)/FTP
+
+- Windows Notepad (to write code)
+- DNS (official web site name, eg.: paulramnora.com)
+- Namecheap (web hosting company)
+- FTP/File Transfer Protocol (the FREE, Filezilla/or, other FTP software)
+- Chrome Web browser (to view output)
+
+Workflow 2: Netlify (drag and drop)
+
+- Windows Notepad (to write code)
+- Netlify (drag and drop to go upload site as a [.zip] file/must include an [index.html] page to work/can include web page forms/the url says: netlify; (though, there are other options such as using an official DNS site name)
+- Chrome Web browser (to view output)
+
+Workflow 3: Netlify/GitHub/GitHub for Desktop
+ 
+- Windows Notepad (to write code)
+- GitHub Desktop
+- GitHub (web page files are stored inside of GitHub code repository)
+- Netlify (fetch code from GitHub repository to display it/must include an [index.html] page to work/can include web page forms/the url says: netlify)
+- Chrome Web browser (to view output)
+
+Workflow 4: Azure cloud service
+
+- Windows Notepad
+- Azure cloud service (as site host)
+- the site URL says, azure/(though, there are other options such as using an official DNS site name)
+- Chrome Web Browser (to view output) 
+
+Workflow 5: Amazon cloud service
+
+- Windows Notepad
+- Amazon cloud service (as site host)
+- the site URL says, amazon/(though, there are other options such as using an official DNS site name)
+- Chrome Web Browser (to view output) 
+
+      </textarea>
+     </form> 
+
+    </blockquote>
+
+    <footer>
+     <div class="divFooter">
+      <p>
+       &copy; 2022-, Mr. Paul Ramnora./All rights reserved.
+      </p>
+     </div>
+    </footer>
+
+    <p class="clsPageUpdateMsg">
+     Page created:
+     <span class="clsDateTimeStamp">
+      19:01 21/08/2022
+     </span>
+     <br>
+     Last updated:
+     <span class="clsDateTimeStamp">
+      07:58 27/08/2022
+     </span>
+    </p>
+
+   </div><!--div main-->
+
+   <div class="div-right">
+    <p>
+     abc
+    </p>
+   </div>
+
+
+
+  </div><!--div outer-->
+
+ </body>
+</html>
