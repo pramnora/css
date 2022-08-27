@@ -17,7 +17,9 @@ CSS/Cascading Style Sheet code, is a very powerful compliment to HTML/HyperText 
 
 - CSS code, is used to decorate that text...position text: left/right/center; colour text in...re-size text...give the text a spectic font face: arial/verdana/sans-serif/-etc...create text effects: bold/underline/italic...highlight text/-etc. CSS, can also be used to create such things as page rows/columns...and, position these exactly as the web page designer pleases.  
 
-In short, and in summary...without CSS being available...; then, web pages would mostly tend to look very 'boring', indeed. Myself, I can hardly think of 'one' well known/or, famous company web site...that doesn't employ the use of CSS; thus, learning to use both HTML and CSS...I would say is essential learning if you wish to learn how to write/design/build web pages truly most effectively.
+In short, and in summary...without CSS being available...; then, web pages would mostly tend to look very 'boring', indeed. Myself, I can hardly think of 'one' well known/or, famous company web site...that doesn't employ the use of CSS; thus, learning to use both HTML and CSS together...I would say is *essential* learning if you wish to learn how to write/design/build web pages truly most effectively.
+
+The good news is...because CSS has been around for an awfully long time...; therefore, there are helpful 'teach yourself CSS' resources located all over the internet; whether those resources are 'text based'/or else, 'video based', instead; too, there are books you can buy/library books you can borrow/-etc.    
 
 -----
 
