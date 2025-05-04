@@ -50,4 +50,5 @@ The good news is...because CSS has been around for an awfully long time...; ther
 
 CSS Animation: Spinner:  
 -> https://www.youtube.com/shorts/BSn76JUymhE  
-
+My CodePen adaptation of the above code:  
+-> https://codepen.io/paulramnora/pen/YPPadgV  
