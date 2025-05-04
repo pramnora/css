@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!--This code borrowed from:
+  https://www.youtube.com/shorts/BSn76JUymhE
+  Created: 020525 21:46 PM GMT
+  Updated: 020525 21:46 PM GMT
+ -->
+ <head>
+  <meta charset="utf-8">
+  <title>Spiner</title>
+  <style>
+   .spiner{
+    background-color:orangered;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border: 25px solid white;
+    border-left: 20px solid yellow;
+    border-right: 20px solid pink;
+    border-top: 20px solid indigo;
+    border-bottom: 20px solid green;
+    animation: ani 2.5s linear infinite;
+   }
+   @keyframes ani{
+    to{
+     transform:rotate(360deg);
+    }
+   }
+  </style>
+ </head>
+ <body>
+  <div class="spiner"></div>
+ </body>
+</html>
