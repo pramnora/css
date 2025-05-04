@@ -17,6 +17,10 @@ all of which can be 'slow' to both download/run...;
 CSS Animations, merely uses some coded text(which is a whole lot less memory intensive);  
 thus, is much quicker to download/run.      
 
+Of course, to do any coding well...; then, I think, you have to have a good knowledgeable backbround in maths...;  
+which, most unfortunately, I don't have...?!   
+And, for that specific reason, all of my own codes are very simple and straight forwards, indeed.  
+
 -----
 
 ## Links
