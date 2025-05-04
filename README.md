@@ -1,6 +1,8 @@
 # css
 Cascading Style Sheet Code
 
+**Page last updated**: *Sun 4th May 2025 18:47 PM GMT* 
+
 -----
 
 ## All of the codes being shown inside of this 'CSS' folder directory up above...can both be 'viewed/interacted' with by using the following Netlify link.
@@ -41,3 +43,11 @@ The good news is...because CSS has been around for an awfully long time...; ther
 ## Videos
 
 ### YouTube...
+
+### YouTube/Shorts...  
+
+## Animation  
+
+CSS Animation: Spinner:  
+-> https://www.youtube.com/shorts/BSn76JUymhE  
+
