@@ -14,7 +14,8 @@ The main reason why is because the code is very 'light and compact'...;
 because, instead of using heavily memory intensive 'graphic files:  
 [.jpg]/[.gif]/[.png]/[.mov]/[.mp4]/-etc.;        
 all of which can be 'slow' to both download/run...;         
-CSS Animations, merely uses some coded text(which is a whole lot less memory intensive).    
+CSS Animations, merely uses some coded text(which is a whole lot less memory intensive);  
+thus, is much quicker to download/run.      
 
 -----
 
