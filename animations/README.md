@@ -24,6 +24,6 @@ thus, is much quicker to download/run.
 ### YouTube 
 
 CSS Animation/Spiner:   
-- https://www.youtube.com/shorts/BSn76JUymhE
+- https://www.youtube.com/shorts/BSn76JUymhE  
 My own personal adapation of the above:    
 -  https://codepen.io/paulramnora/pen/YPPadgV   
