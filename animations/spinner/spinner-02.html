@@ -1,1 +1,229 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+
+  <!--This code was originally borrowed from:
+  https://www.youtube.com/shorts/BSn76JUymhE
+  ------
+  Then, later on, was further changed/adapted by me:
+  https://codepen.io/paulramnora/pen/YPPadgV
+  ------
+  Created: 040525 18:56 PM GMT
+  Updated: 040525 18:56 PM GMT
+ -->
+  
+ <head>
+  <meta charset="utf-8">
+  <title>Spiner</title>
+  <style>
+
+/* This code aligns to the center the 'clickable' text link whic hsi shown below the table */
+
+p{text-align:center;}
+
+/*************************************/
+
+.spinerOriginalCode{
+ background-color:orangered;
+ width:50px;
+ height:50px;
+ border-radius:50%;
+ border:25px solid white;
+ border-top: 20px solid indigo;
+ animation: aniOriginalCode 2.5s linear infinite;
+}
+
+@keyframes aniOriginalCode{
+  to{
+   transform:rotate(360deg)
+  }
+}
+
+/*************************************/
+
+.spinerSlow{
+ background-color:orange;
+ width:50px;
+ height:50px;
+ border-radius:50%;
+ border:25px solid white;
+ border-top: 10px solid blue;
+ border-bottom: 10px solid green;
+ border-left: 10px solid pink;
+ border-right: 10px solid yellow;
+ animation: aniSlow 60s linear infinite;
+}
+
+@keyframes aniSlow{
+  to{
+   transform:rotate(360deg)
+  }
+}
+
+
+/*************************************/
+
+.spinerMedium{
+ background-color:orange;
+ width:50px;
+ height:50px;
+ border-radius:50%;
+ border:25px solid white;
+ border-top: 25px solid blue;
+ border-bottom: 25px solid green;
+ border-left: 25px solid pink;
+ border-right: 25px solid yellow;
+ animation: aniMedium 2.5s linear infinite;
+}
+
+@keyframes aniMedium{
+  to{
+   transform:rotate(360deg)
+  }
+}
+
+/*************************************/
+
+.spinerFast{
+ background-color:orange;
+ width:50px;
+ height:50px;
+ border-radius:50%;
+ border:25px solid white;
+ border-top: 25px solid blue;
+ border-bottom: 25px solid green;
+ border-left: 25px solid pink;
+ border-right: 25px solid yellow;
+ animation: aniFast .1s linear infinite;
+}
+
+@keyframes aniFast{
+  to{
+   transform:rotate(360deg)
+  }
+}
+
+/*************************************/
+
+.spinerEgg1{
+ background-color:yellow;
+ width:50px;
+ height:50px;
+ border:25px solid white;
+ border-radius:50%;
+ border-top: 20px solid blue;
+ border-bottom: 40px solid blue;
+ border-left: 20px solid blue;
+ border-right: 20px solid blue;
+ animation: aniEgg1 5s infinite;
+}
+
+@keyframes aniEgg1{
+  to{
+   transform:rotate(360deg)
+  }
+}
+
+/*************************************/
+
+.spinerEgg2{
+  background-color:maroon;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  border-top: 50px solid yellow;
+  animation: aniEgg2 2.5s linear infinite;
+}
+@keyframes aniEgg2{
+  to{
+     transform:rotate(360deg)
+  }
+} 
+    
+  </style>
+ </head>
+
+<body>
+
+ <h1>CSS Animation: Spinner</h1>
+  
+<!--I'm using a center-/center tag pair help center the table-->
+
+<center>
+
+<!--Adding a table...
+    This is a 6 row/2 column table...
+    which displays 6 different animation adapatation examples.
+  -->
+
+<table cellpadding="3" cellspacing="3" border="3">
+
+ <tr>
+  <th>   
+   <div class="spinerOriginalCode"></div>
+  </th>
+  <th>
+   This was the original code display.
+  </th>   
+ </tr>
+
+ <tr>
+  <th>   
+   <div class="spinerSlow"></div>
+  </th>
+  <th>
+   This is the slow spiner.
+  </th>   
+ </tr>
+  
+ <tr>
+  <th>   
+   <div class="spinerMedium"></div>
+  </th>
+  <th>
+   This is a medium fast spinner.
+  </th>   
+ </tr>
+
+ <tr>
+  <th>   
+   <div class="spinerFast"></div>
+  </th>
+  <th>
+   This is a fast spinner.
+  </th>   
+ </tr>
+
+ <tr>
+  <th>   
+   <div class="spinerEgg1"></div>
+  </th>
+  <th>
+   This shows the egg yolk inside.
+  </th>   
+ </tr>
+
+ <tr>
+  <th>   
+   <div class="spinerEgg2"></div>
+  </th>
+  <th>
+   This shows half egg/half shell.
+  </th>   
+ </tr>
+  
+</table>  
+
+</center>
+
+<p>
+ <strong>Credits</strong>:
+ This code was originally borrowed from:
+ <br>
+ <a href="https://www.youtube.com/shorts/BSn76JUymhE" target="_blank">
+ https://www.youtube.com/shorts/BSn76JUymhE 
+ </a>
+</p>
+   
+ </body>
+  
+</html>
