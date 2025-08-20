@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>CSS QNA Test</title>
+  <style>
+   /* align the header to the center */
+   h1{text-align:center;}
+   /* set all p elements background to light grey */
+   p{padding:10px;}
+   p.a{background-color:rgba(128,128,128,0.2);}
+   p.q{background-color:rgba(128,128,128,0.5);}
+   /* change text position on hover: each text element moves: left */
+   p.correct-1:hover{text-align:center;background-color:black;color:white;}
+   p.ca{text-align:center;}
+  </style>
+ </head>
+ <body onload="style='p4{display:none}'">
+  <h1>QNA</h1>
+  <details>
+   <summary>Q1: What is 3+3?</summary>
+   <p class="a">7</p>
+   <p class="a">10</p>
+   <p class="a correct-1">6</p>
+   <p class="a">0</p>
+   <p class="ca">-(Correct answer is shown in the middle.)-</p>
+  </details>
+  <details>
+   <summary>Q2: What is 3-3?</summary>
+   <p class="a correct-1">0</p>
+   <p class="a">6</p>
+   <p class="a">9</p>
+   <p class="a">27</p>
+   <p class="ca">-(Correct answer is shown in the middle.)-</p>
+  </details>
+  <details>
+   <summary>Q3: What is 3x3?</summary>
+   <p class="a">6</p>
+   <p class="a">0</p>
+   <p class="a">1</p>
+   <p class="a correct-1">9</p>
+   <p class="ca">-(Correct answer is shown in the middle.)-</p>
+  </details>
+  <details>
+   <summary>Q4: What is 3/3?</summary>
+   <p class="a">0</p>
+   <p class="a correct-1">1</p>
+   <p class="a">2</p>
+   <p class="a">3</p>
+   <p class="ca">-(Correct answer is shown in the middle.)-</p>
+  </details>
+ </body>
+</html>
